@@ -29,7 +29,7 @@
 
 
  .container {
-     max-width: 1158;
+     max-width: 1158px;
      padding: 0 15px;
      margin: 0 auto;
  }
@@ -127,10 +127,8 @@
 
  .hero {
      background-color: #2e2f42;
-
-
      padding-top: 188px;
-     padding-bottom: 292px;
+     padding-bottom: 188px;
 
      margin: 0 auto;
 
@@ -138,7 +136,7 @@
          display: flex;
          align-items: center;
          flex-direction: column;
-
+         box-sizing: content-box;
      }
 
  }
@@ -150,10 +148,9 @@
      letter-spacing: 0.02em;
      text-align: center;
      color: #fff;
-     /* box-sizing: content-box; */
+
      margin: 0 auto;
-     /* width: 496 px;
-     height: 120 px; */
+     max-width: 496 px;
 
  }
 
@@ -170,8 +167,10 @@
      border-radius: 4px;
      margin: 0 auto;
      margin-top: 48px;
-     /* width: 169px;
-     height: 56px; */
+     display: block;
+     width: 169px;
+     height: 56px;
+     border: none;
  }
 
  .hero-btn:hover,
