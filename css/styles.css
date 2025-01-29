@@ -126,6 +126,7 @@
  }
 
  .hero {
+     border: 1px solid #e7e9fc;
      background-color: #2e2f42;
      padding-top: 188px;
      padding-bottom: 188px;
@@ -177,6 +178,7 @@
  }
 
  .feature {
+     border: 1px solid #e7e9fc;
      display: flex;
      align-items: center;
      padding: 120px 0;
@@ -235,7 +237,16 @@
 
 
  .team {
+     border: 1px solid #e7e9fc;
      background-color: #f4f4fd;
+     padding: 120px 0;
+
+ }
+
+ .team-wrap {
+     display: flex;
+     align-items: center;
+
  }
 
  .team-title {
@@ -246,15 +257,26 @@
      text-align: center;
      color: #2e2f42;
      text-transform: capitalize;
+     margin-bottom: 72px;
  }
 
- .team-list {}
+ .team-list {
+     display: flex;
+     align-items: center;
+     margin: 0 auto;
+     gap: 24px;
+
+ }
 
  .team-item {
      background-color: #FFFFFF;
+     border-radius: 0 0 4px 4px;
+     width: calc((100% - 3 * 24px) / 4)
  }
 
- .team-image {}
+ .team-image {
+     display: block;
+ }
 
  .team-subtitel {
      font-weight: 500;
@@ -263,6 +285,8 @@
      letter-spacing: 0.02em;
      text-align: center;
      color: #2e2f42;
+     margin-bottom: 8px;
+     margin-top: 32px;
  }
 
  .team-text {
@@ -271,7 +295,35 @@
      letter-spacing: 0.02em;
      text-align: center;
      color: #434455;
+     text-align: center;
+
  }
+
+ .wrap-mark-guerrero {
+
+     padding: 0px 0px 32px 0px;
+
+
+ }
+
+ .wrap-tom-ford {
+
+     padding: 0px 0px 32px 0px;
+
+ }
+
+ .wrap-camila-garcia {
+
+     padding: 0px 0px 32px 0px;
+
+ }
+
+ .wrap-daniel-wilson {
+
+     padding: 0px 0px 32px 0px;
+
+ }
+
 
  .portfolio {
      background-color: #fff;
