@@ -134,12 +134,12 @@
  }
 
 
- .hero-wrap {
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     box-sizing: border-box;
- }
+ /* .hero-wrap { */
+ /* display: flex; */
+ /* align-items: center; */
+ /* flex-direction: column; */
+ /* box-sizing: border-box; */
+ /* } */
 
 
  .hero-title {
@@ -291,7 +291,7 @@
  }
 
  .wrap-team {
-     padding: 0px 0px 32px 0px;
+     padding: 32px 0px;
  }
 
  .portfolio {
