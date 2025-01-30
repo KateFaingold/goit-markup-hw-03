@@ -321,7 +321,9 @@
      width: calc((100% - 48px) / 3);
  }
 
- .portfolio-image {}
+ .portfolio-image {
+     display: block;
+ }
 
  .portfolio-subtitle {
      font-weight: 500;
