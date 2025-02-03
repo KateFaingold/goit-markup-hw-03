@@ -133,15 +133,6 @@
      margin: 0 auto;
  }
 
-
- /* .hero-wrap { */
- /* display: flex; */
- /* align-items: center; */
- /* flex-direction: column; */
- /* box-sizing: border-box; */
- /* } */
-
-
  .hero-title {
      font-weight: 700;
      font-size: 56px;
@@ -278,7 +269,6 @@
      text-align: center;
      color: #2e2f42;
      margin-bottom: 8px;
-     margin-top: 32px;
  }
 
  .team-text {
